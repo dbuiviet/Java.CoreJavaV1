@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CalendarTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.CalendarTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EmployeeTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.EmployeeTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.HelloWorld"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LotteryDrawing",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.LotteryDrawing"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Retirement",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.Retirement"
+        }
+    ]
+}
