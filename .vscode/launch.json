@@ -51,6 +51,14 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "mainClass": "com.dbuiviet.java.CoreJavaV1.EqualsTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.ArrayListTest"
         }
     ]
 }
