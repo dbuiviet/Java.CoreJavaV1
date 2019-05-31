@@ -59,6 +59,14 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "mainClass": "com.dbuiviet.java.CoreJavaV1.ArrayListTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EnumTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.EnumTest"
         }
     ]
 }
