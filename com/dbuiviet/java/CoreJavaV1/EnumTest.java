@@ -1,6 +1,7 @@
 package com.dbuiviet.java.CoreJavaV1;
 
 import java.util.Scanner;
+import java.lang.Enum;
 
 /**
  * This program demonstrates enumerated types.
@@ -20,6 +21,16 @@ import java.util.Scanner;
         System.out.println("abbreviation: "+size.getAbbreviation());
         if(size == Size.EXTRA_LARGE)
             System.out.println("You did pay attention to the _.");
+
+        try {
+            // String clName = in.getClass().getName();
+            // System.out.println(clName);
+            //String clName = "java.util.Random"; //will not throw an excetion
+            String clName = "java.util.Scaner"; //will throw an exception            
+            Object obj = Class.forName(clName).newInstance();
+        } catch (Exception e) {            
+            e.printStackTrace();
+        }
 
         in.close();
      }

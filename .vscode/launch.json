@@ -67,6 +67,14 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "mainClass": "com.dbuiviet.java.CoreJavaV1.EnumTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReflectionTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.ReflectionTest"
         }
     ]
 }
