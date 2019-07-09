@@ -27,7 +27,8 @@ import java.lang.Enum;
             // System.out.println(clName);
             //String clName = "java.util.Random"; //will not throw an excetion
             String clName = "java.util.Scaner"; //will throw an exception            
-            Object obj = Class.forName(clName).newInstance();
+            //Object obj = Class.forName(clName).newInstance();
+            Object obj = Class.forName(clName).getConstructor().newInstance();
         } catch (Exception e) {            
             e.printStackTrace();
         }
