@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - EmployeeSortTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.interfaces.EmployeeSortTest"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-CalendarTest",
             "request": "launch",
             "cwd": "${workspaceFolder}",
