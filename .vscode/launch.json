@@ -6,6 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - LambdaTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.lambda.LambdaTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - CloneTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.clone.CloneTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - TimerTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.timer.TimerTest"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - EmployeeSortTest",
             "request": "launch",
             "cwd": "${workspaceFolder}",

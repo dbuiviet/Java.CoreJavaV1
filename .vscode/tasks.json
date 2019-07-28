@@ -6,7 +6,7 @@
         {
             "label": "CoreJavaV1",
             "type": "shell",
-            "command": "javac -Xlint:deprecation ./com/dbuiviet/java/CoreJavaV1/*.java",
+            "command": "javac -Xlint:deprecation ./com/dbuiviet/java/CoreJavaV1/lambda/*.java",
             "group":{
                 "kind": "build",
                 "isDefault": true
