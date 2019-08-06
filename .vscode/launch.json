@@ -6,6 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - LoggingImageViewer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.logging.LoggingImageViewer"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - StackTraceTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.stackTrace.StackTraceTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - InnerClassTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "mainClass": "com.dbuiviet.java.CoreJavaV1.innerClass.InnerClassTest"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - LambdaTest",
             "request": "launch",
             "cwd": "${workspaceFolder}",
